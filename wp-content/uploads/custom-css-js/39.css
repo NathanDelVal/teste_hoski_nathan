@@ -1,0 +1,53 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+.btn-custom1 a {
+	transform: rotate(-3deg);
+	position:relative;
+}
+
+.btn-custom2 a {
+	transform: rotate(3deg);
+	position:relative;
+}
+
+.btn-custom1 a::before {
+	content: '';
+	position:absolute;
+	left:-10px;
+	top: 0;
+	height:2px;
+	background: white;
+	width:120%;
+}
+
+.btn-custom2 a::before {
+	content: '';
+	position:absolute;
+	left: -1px;
+	top: -7px;
+	height: 7px;
+	width: 40%;
+	background: white;
+}
+
+.btn-custom2 a::after {
+	content: '';
+	position: absolute;
+	right: -2px;
+	width: 20%;
+	height: 4px;
+	bottom: -4px;
+	background: white;
+}</style>
+<!-- end Simple Custom CSS and JS -->

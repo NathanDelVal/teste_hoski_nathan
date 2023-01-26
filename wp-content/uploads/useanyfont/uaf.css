@@ -1,0 +1,10 @@
+				@font-face {
+					font-family: 'neuzon';
+					src: url('/teste_huski/wp-content/uploads/useanyfont/1118Neuzon.woff2') format('woff2'),
+						url('/teste_huski/wp-content/uploads/useanyfont/1118Neuzon.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.neuzon{font-family: 'neuzon' !important;}
+
+		
